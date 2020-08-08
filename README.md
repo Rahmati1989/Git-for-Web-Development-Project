@@ -33,18 +33,23 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 ## Task 3: Stretch
 Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
+    Answer: 
+    Block elements have a rectangular structure. The inline elements can be embedded in block elements. The key difference between block and the inline element is that the block elements take up the full width available while the inline elements take the required width to display the contents of the elements
     2. What happens when an element is positioned absolutely? 
+    Answer:
+    Absolutely positioned elements are removed entirely from the document flow. That means they have no effect at all on their parent element or on the elements that occur after them in the source code. An absolutely positioned element will therefore overlap other content unless you take action to prevent it
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Answer:
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
+    Answer:
+    The box model allows us to add a border around elements, and to define space between elements.
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
   - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
 
 - [ ] Research and set up a Graphical User Interface (GUI) Git console. 
 
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
-
-
