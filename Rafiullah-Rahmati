@@ -1,0 +1,124 @@
+https://codepen.io/RahmatiRafi/pen/yLeNLXe?editors=1100
+
+Question/Answer review:
+
+1. What is Semantic HTML? 
+     It gives meaning to our code.
+     Answer:
+    2. What is HTML used for? 
+    Answer:
+	Hyper Text Markup Language.
+    3. What is an attribute and where do we put it? 
+    Answer:
+	Attributes are additional properties of element give more meaning to an element , attributes add to HTML start tags
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    Answer:
+	H1 tag used for giving heading and we use it only one time in our page.
+    5. Name two tags that have required attributes.
+    Answer:
+	label and type
+    6. What do we put in the head of our HTML document? 
+    Answer:
+	the head tag is used to contain specific information about a web page,  This information includes things like the title of                     	the document (which is mandatory), as well as 	scripts or links to scripts, and CSS files
+    7. What is an id? 
+    Answer:
+	It is unique selector .
+    8. What elements can I add an id to? 
+    Answer:
+	We can add ID attributes when it is required.
+    9. How many times can I use the same id on a page? 
+    Answer:
+	Only one time.
+    10. What is a class? 
+    Answer:
+	The class is an attribute which specifies one or more class names for an HTML element.
+    11. What elements can I add a class to? 
+    Answer:
+    H1 to H6, p, div, span , image, nav, a 
+    12. How many times can I use the same class on a page?
+    Answer: 
+	As many times as you want
+    13. How do I get my link to open in a new tab?
+    Answer:
+	target="_blank" 
+    14. What is the alt attribute used for? 
+    Answer:
+	We can give information to our image or anything else.
+
+    15. How do I reference an id?
+    Answer:
+	id="name of id" example id="new_Id"
+    16. What is the difference between a section and a div
+    Answer:
+	The section is used for giving section to a ducument header, footer or chapter where div is use for division ,div tag is used 	to group block-elements to format them with CSS. 
+
+    17. What is CSS used for? 
+    Answer:
+	used for styling our HTML. 
+    18. How to we select an element? Example - every h2 on the page
+    Answer:
+	h2{ }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	Answer:
+    We can use class as many times as we want in our page while ID is unique 
+	Class ex: <h1 class="my_Class">
+			<h2 class="my_Class">
+	ID ex: 	<p id="new_Id">
+    20. How do we select classes in CSS?
+    Answer:
+	.className{ }
+    21. How do we select a p element with a single class of “human””?
+    Answer:
+	p .human{ }
+    22. What is a parent child selector? When would this be useful? 
+    Answer:
+	selects all elements that are a direct child of the specified element, when we have lots of inheritance. 
+    Answer:
+    23. How do you select all links within a div with the class of sidebar?
+    Answer:
+	div_name .sidebar{ }
+    24. What is a pseudo selector?
+    Answer:
+	Pseudo  selects elements that are in a specific state.
+    25. What do we use the change the spacing between lines?
+    Answer:
+	line-height:
+    26. What do we use to change the spacing between letters?
+    Answer:
+	letter-spacing: 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    Answer:
+	text-tranform:
+    28. How do I add a 1px border around my div that is dotted and black?
+    Answer:
+	<div style="border: dotted 1px black">
+    29. How do I select everything on the page? 
+    Answer:
+	* { }
+    30. How do I write a comment in CSS?
+    Answer:
+	/* comment */
+	
+    31. How do I find out what file I am in, when I am using the command line? 
+    Answer:
+	pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    Answer:
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Answer:
+	rm fileName
+    34. Why should I use version control? 
+    Answer:
+	work in one project as a team .
+    35. How often should I commit to github?
+    Answer:
+	as often as you can.
+    36. What is the command we would use to push our repo up to github? 
+    Answer:
+	git push -b "name your repo"
+    37. Walk me through Lambda's git flow. 
+    Answer: 
+	Create your own Repo->Fork->Setting->Collaborator->Add collaborator->add your TL Username of Email->Clone your repo
+	copy the clone link->Go to terminal->get clone and paste the clone->cd into repo->git checkout -b "your firstName-
+	yourLastname"->git add .->git comment-> git push -u
